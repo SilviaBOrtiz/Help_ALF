@@ -5,7 +5,7 @@ TODO LIST für "Help ALF"
 - [ ] Test: map enthält kein 'X' -> "Spaceship lost forever." ok
 - [ ] Test: 'X' am unteren linken Rand [0, 0] ok
 - [ ] Test: 'X' am unteren linken Rand [2, 2] ok
-- [ ] Test: 'X' am unteren linken Rand [1, 1]
+- [ ] Test: 'X' am unteren linken Rand [1, 1] ok
 - [ ] Test: 'X' am unteren linken Rand [4, 3]
 - [ ] Test: 'X' am unteren linken Rand [3, 1]
 - [ ] Test: 'X' befindet sich z. B. an [7, 2]

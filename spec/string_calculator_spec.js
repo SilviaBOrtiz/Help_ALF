@@ -18,5 +18,14 @@ describe("Help ALF - findSpaceship", function () {
         expect(findSpaceship(map)).toEqual([2, 2]);
     });
 
+    it("finds the spaceship in the center [1, 1]", function () {
+        const map = "...\n.X.\n...";
+        expect(findSpaceship(map)).toEqual([1, 1]);
+    });
+
+    it("finds the spaceship at [4, 3] in larger map", function () {
+        const map = "..........\n..........\n..........\n....X.....\n..........\n..........";
+        expect(findSpaceship(map)).toEqual([4, 3]);
+    });
 
 });
