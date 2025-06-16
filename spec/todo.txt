@@ -1,8 +1,9 @@
 TODO LIST für "Help ALF"
 
-- [ ] Funktion „findSpaceship“ erstellen
-- [ ] Test: Map mit leerem String -> „Spaceship lost forever.“
-- [ ] Test: Map ohne „X“ -> „Spaceship lost forever.“
-- [ ] Test: Map mit „X“ an bekannter Position ⇒ korrekte [x, y] Koordinaten
-- [ ] Test: Map mit mehreren Zeilen und „X“ an anderer Stelle
-- [ ] Refactor: Fehlerbehandlung für ungültige Eingaben (optional)
+- [ ] Funktion `findSpaceship(map)` erstellen ok
+- [ ] Test: map ist leer -> "Spaceship lost forever." ok
+- [ ] Test: map enthält kein 'X' -> "Spaceship lost forever." ok
+- [ ] Test: 'X' befindet sich z. B. an [6, 3]
+- [ ] Test: 'X' am unteren linken Rand [0, 0]
+- [ ] Test: 'X' am oberen rechten Rand bei mehrzeiliger Map
+- [ ] Refactor: Umkehr der Y-Koordinaten logisch extrahieren
