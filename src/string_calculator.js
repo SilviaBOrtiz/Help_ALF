@@ -9,7 +9,8 @@ function findSpaceship(map) {
       return [x, y]; //Koordinaten zurückgeben
     }
   }
-
+  
   return "Spaceship lost forever."; //Kein 'X' gefunden
 }
+
 

@@ -23,9 +23,14 @@ describe("Help ALF - findSpaceship", function () {
         expect(findSpaceship(map)).toEqual([1, 1]);
     });
 
-    it("finds the spaceship at [4, 3] in larger map", function () {
+    it("finds the spaceship at [4, 2] in larger map", function () {
         const map = "..........\n..........\n..........\n....X.....\n..........\n..........";
-        expect(findSpaceship(map)).toEqual([4, 3]);
+        expect(findSpaceship(map)).toEqual([4, 2]);
+    });
+
+    it("finds the first 'X' from bottom up and left to right", function () {
+        const map = ".....X....\n...X......\n..........";
+        expect(findSpaceship(map)).toEqual([3, 1]); // erster 'X' von unten gezählt
     });
 
 });
