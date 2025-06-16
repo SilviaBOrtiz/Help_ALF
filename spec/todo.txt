@@ -3,7 +3,10 @@ TODO LIST für "Help ALF"
 - [ ] Funktion `findSpaceship(map)` erstellen ok
 - [ ] Test: map ist leer -> "Spaceship lost forever." ok
 - [ ] Test: map enthält kein 'X' -> "Spaceship lost forever." ok
-- [ ] Test: 'X' befindet sich z. B. an [6, 3]
-- [ ] Test: 'X' am unteren linken Rand [0, 0]
-- [ ] Test: 'X' am oberen rechten Rand bei mehrzeiliger Map
+- [ ] Test: 'X' am unteren linken Rand [0, 0] ok
+- [ ] Test: 'X' am unteren linken Rand [2, 2]
+- [ ] Test: 'X' am unteren linken Rand [1, 1]
+- [ ] Test: 'X' am unteren linken Rand [4, 3]
+- [ ] Test: 'X' am unteren linken Rand [3, 1]
+- [ ] Test: 'X' befindet sich z. B. an [7, 2]
 - [ ] Refactor: Umkehr der Y-Koordinaten logisch extrahieren
