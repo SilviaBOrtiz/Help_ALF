@@ -8,5 +8,4 @@ TODO LIST für "Help ALF"
 - [ ] Test: 'X' am unteren linken Rand [1, 1] ok
 - [ ] Test: 'X' am unteren linken Rand [4, 2] ok
 - [ ] Test: 'X' am unteren linken Rand [3, 1] (prüft 2 mal 'X') ok
-- [ ] Test: 'X' befindet sich z. B. an [7, 2]
-- [ ] Refactor: Umkehr der Y-Koordinaten logisch extrahieren
+- [ ] Test: 'X' befindet sich z. B. an [7, 2] ok

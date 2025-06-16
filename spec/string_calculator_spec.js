@@ -32,5 +32,10 @@ describe("Help ALF - findSpaceship", function () {
         const map = ".....X....\n...X......\n..........";
         expect(findSpaceship(map)).toEqual([3, 1]); // erster 'X' von unten gezählt
     });
+    
+    it("returns [7, 2] if spaceship is at that position", function () {
+        const map = "..........\n..........\n..........\n.......X..\n..........\n..........";
+        expect(findSpaceship(map)).toEqual([7, 2]);
+    });
 
 });
