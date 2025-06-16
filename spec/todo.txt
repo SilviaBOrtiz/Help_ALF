@@ -1,0 +1,8 @@
+TODO LIST für "Help ALF"
+
+- [ ] Funktion „findSpaceship“ erstellen
+- [ ] Test: Map mit leerem String -> „Spaceship lost forever.“
+- [ ] Test: Map ohne „X“ -> „Spaceship lost forever.“
+- [ ] Test: Map mit „X“ an bekannter Position ⇒ korrekte [x, y] Koordinaten
+- [ ] Test: Map mit mehreren Zeilen und „X“ an anderer Stelle
+- [ ] Refactor: Fehlerbehandlung für ungültige Eingaben (optional)
